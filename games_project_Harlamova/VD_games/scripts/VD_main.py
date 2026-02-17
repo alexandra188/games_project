@@ -1,9 +1,7 @@
-from VD_games.scripts.VD_games import greet
+from ..cli import welcome_user
 
 def main():
-    print("Запуск приложения...")
-    greet()
-    print("Приложение завершено.")
+    welcome_user()
 
 if __name__ == "__main__":
     main()

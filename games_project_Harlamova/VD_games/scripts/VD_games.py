@@ -1,5 +1,7 @@
-def greet():
-    print('Welcome to my application!')
+from ..cli import welcome_user
+
+def main():
+    welcome_user()
 
 if __name__ == "__main__":
-    greet()
+    main()
