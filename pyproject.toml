@@ -25,6 +25,7 @@ VD_games = "VD_games.scripts.VD_games:main"
 VD-even = "VD_games.scripts.VD_even:main"
 brain-calc = "VD_games.scripts.brain_calc:main"
 brain-gcd = "VD_games.scripts.brain_gcd:main"
+VD-progression = "VD_games.scripts.vd_progression:main"
 
 [tool.ruff]
 line-length = 79
